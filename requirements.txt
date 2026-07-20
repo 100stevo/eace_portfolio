@@ -1,0 +1,33 @@
+# EACE-2026-0006 -- Extremity Trauma Outcomes Analytics
+# Python 3.10+
+
+# Data handling
+polars>=0.20
+pandas>=2.0
+numpy>=1.24
+
+# Imputation / classical ML
+scikit-learn>=1.3
+
+# Statistical modeling
+statsmodels>=0.14
+lifelines>=0.27
+
+# Machine learning
+xgboost>=2.0
+
+# Explainability
+shap>=0.44
+
+# Visualization
+plotly>=5.18
+matplotlib>=3.7
+seaborn>=0.13
+
+# Dashboard
+streamlit>=1.32
+
+# R <-> Python bridge (optional, for calling Module 3 from Python)
+# rpy2>=3.5
+
+pyarrow>=14.0
